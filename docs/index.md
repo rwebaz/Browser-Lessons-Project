@@ -5,7 +5,7 @@ navigation_weight: 1
 ---
 # Browser Lessons Project Home Page
 
-{{ site.tagline }}
+A GitHub repo of lessons and articles specific to modern browser windows.
 
 ## Table O Contents
 

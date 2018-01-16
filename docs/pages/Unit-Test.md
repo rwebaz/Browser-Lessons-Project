@@ -5,7 +5,7 @@ navigation_weight: 8
 ---
 # Unit Testing
 
-{{ site.tagline }}
+Before sending your hard-worked app off to production a Unit Testing scheme is in order.
 
 {% include toc-flammarion.md %}
 
