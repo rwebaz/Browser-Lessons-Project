@@ -5,13 +5,13 @@ navigation_weight: 8
 ---
 # Key Shorts
 
-The standard set of *Hot Keys* in **Visual Studio Code** include the `shift` + `cmd` + `p` combo *keybinding* for accessing the **VSC** *command line interface*.
+The default `shift` + `cmd` + `p` combo *keybinding* allows the end-user to access the **VSC** *command line interface*.
 
 {% include toc-flammarion.md %}
 
 ## Shift Command P
 
-The default `shift` + `cmd` + `p` combo *keybinding* is used to `Show All Commands` at the the **VSC** *command line interface*.
+The standard set of *Hot Keys* in **Visual Studio Code** include the `shift` + `cmd` + `p` combo *keybinding* used to `Show All Commands`.
 
 ### Discover P
 
