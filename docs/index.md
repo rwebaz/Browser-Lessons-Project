@@ -5,7 +5,7 @@ navigation_weight: 1
 ---
 # Browser Lessons Project Home Page
 
-A GitHub repo of lessons and articles specific to modern browser windows.
+{{ site.description }}
 
 ## Table O Contents
 
@@ -62,4 +62,4 @@ Expound the solution ...
 
 ### External Sources
 
-- The [Project Source Links](https://mminail.github.io/Browser/Source-Browser-Links.htm){:title="Click to Visit the Source Links page of the Browser Lessons Project at GitHub pages"}{:target="_blank"} page of the Browser Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Browser/Source-Browser-Links.htm){:title="Click to Visit the Source Links page of the Browser Lessons Project at GitHub pages"}{:target="_blank"} page of the Browser Lessons Project. Published by © 2000 - 2018[Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
