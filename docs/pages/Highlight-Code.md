@@ -1,7 +1,7 @@
 ---
 title: Highlight Code
 layout: default
-navigation_weight: 8
+navigation_weight: 5
 ---
 # Highlight Code
 

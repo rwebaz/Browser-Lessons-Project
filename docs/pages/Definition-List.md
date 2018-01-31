@@ -1,7 +1,7 @@
 ---
 title: Definition List
 layout: default
-navigation_weight: 8
+navigation_weight: 4
 ---
 # Definition List
 

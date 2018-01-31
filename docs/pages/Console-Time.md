@@ -1,7 +1,7 @@
 ---
 title: Console Time
 layout: default
-navigation_weight: 8
+navigation_weight: 3
 ---
 # Console Time
 
