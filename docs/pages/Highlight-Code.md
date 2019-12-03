@@ -1,20 +1,24 @@
 ---
 title: Highlight Code
 layout: default
-navigation_weight: 5
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Browser-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Highlight Code
+{% include toc.md %}
 
-{{ site.tagline }}
+## Importing Code
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
 
-## First Subtitle
+More to come ...
 
-Place the introducing line of text ie.) the 'tagline' here ...
+### Fence Code
 
-## Import Code
-
+```html
 <pre class="flex-box">
 <span>Setting the double-xx font size for the Immediate tag</span>
 {% highlight css linenos %}
@@ -24,19 +28,18 @@ i.largo {
 {% endhighlight %}
 <span lang="es" title="Sp. 'For Finish'">Finito!</span>&nbsp;...&nbsp;<i class="icon-large icon-flower"></i>
 </pre>
+```
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include sources-and-uses.md %}
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-### External Sources
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
+
+{% include patreon-link.md %}

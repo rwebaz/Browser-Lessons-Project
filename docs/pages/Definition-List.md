@@ -1,56 +1,60 @@
 ---
 title: Definition List
 layout: default
-navigation_weight: 4
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Browser-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Definition List
+{% include toc.md %}
 
-{{ site.tagline }}
+## Solar
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
 
-## First Subtitle
+More to come ...
 
-Place the introducing line of text ie.) the 'tagline' here ...
+### Fence Code
 
-## Solar Page | Carbon Free Footprint Project
-
+```html
 <hgroup class="text-left">
-	<h3>Solar Page</h3>
+<h3>Solar Page</h3>
 </hgroup>
-	<hr class="green-groove" />
-	
+<hr class="green-groove" />
+
 <p>
-	<span>Welcome! This is the Solar page for the <b>Carbon Free Footprint</b> project.</span>
+<span>Welcome! This is the Solar page for the <b>Carbon Free Footprint</b> project.</span>
 </p>
 
 <p>
-	<span>This page has been tested for mobile responsiveness on a Galaxy S5 Smartphone emulator at a width of 360px.</span>
+<span>This page has been tested for mobile responsiveness on a Galaxy S5 Smartphone emulator at a width of 360px.</span>
 </p>
-	<hr class="green-groove" />
+<hr class="green-groove" />
 
 <h4>Solar Panels</h4>
 
 <p>
-	<span>More to come ...</span>
+<span>More to come ...</span>
 </p>
 
 <!-- Output onclick the result of the js function -->
 <form role="form">
-	<div class="form-group">
-		<label>
-			<input id="1" type="button" value="Click this button" />
-		</label>
-	</div>
+<div class="form-group">
+<label>
+<input id="1" type="button" value="Click this button" />
+</label>
+</div>
 </form>
 <output>x</output>
 
 <h4>Vertical Definiton List</h4>
 <dl class="">
-	<dt>Data Title</dt>
-	<dd>Actual Data</dd>
-	<dd>Actual Errata</dd>
-	<dd><a href="#" title="Click to Visit Same" target="_self">Hyperlink to Same Page</a></dd>
+<dt>Data Title</dt>
+<dd>Actual Data</dd>
+<dd>Actual Errata</dd>
+<dd><a href="#" title="Click to Visit Same" target="_self">Hyperlink to Same Page</a></dd>
 </dl>
 
 <!-- Comment out Horizontal Definiton List
@@ -79,32 +83,31 @@ Place the introducing line of text ie.) the 'tagline' here ...
 <div class="btn-group-lg">
 <!-- There is no class in Bootstrap 3.3(7) to force a 'drop-up' -->
 <button type="button" class="btn btn-default"><span>Landraces</span>
-	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-		<i class="caret" ></i>
-	</button>
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+<i class="caret" ></i>
+</button>
 
 <ul class="dropdown-menu" role="menu">
-	<li><a href="#">Ruderalis</a></li>
-	<li><a href="#">Sativa</a></li>
-	<li><a href="#">Indica</a></li>
-	<li class="divider"></li>
-	<li><a href="#">Learn</a></li>
+<li><a href="#">Ruderalis</a></li>
+<li><a href="#">Sativa</a></li>
+<li><a href="#">Indica</a></li>
+<li class="divider"></li>
+<li><a href="#">Learn</a></li>
 </ul>
 </button>
 </div>
+```
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include sources-and-uses.md %}
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-### External Sources
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-- The [Project Source Links](https://mminail.github.io/Browser/Source-Browser-Links.htm){:title="Click to Visit the Source Links page of the Browser Lessons Project at GitHub pages"}{:target="_blank"} page of the Browser Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
+
+{% include patreon-link.md %}

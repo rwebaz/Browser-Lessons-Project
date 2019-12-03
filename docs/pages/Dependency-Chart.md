@@ -1,15 +1,20 @@
 ---
 title: Dependency Chart
 layout: default
-navigation_weight: 4
+excerpt: Per the GitHub pages dependency chart Dtd 012418 ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Browser-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Dependency Chart
-
-Per the GitHub pages dependency chart Dtd 012418.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Security Issue
+
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 Pls update the [GitHub Pages Dependency Chart](https://pages.github.com/versions/){:title="Click to Visit the GitHub Pages Dependency Chart at GitHub pages"}{:target="_blank"} to reflect the Security issue for dependency `Nogogiri` below version 1.8.1; 
 
@@ -29,16 +34,16 @@ Using nokogiri 1.8.1 (was 1.7.2).
 
 Pls update both at at online GitHub pages dependency chart.
 
-{% include sources-and-uses.md %}
+## Last Subtitle
 
-### External Sources
+More to come ...
 
-- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
 
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
+***
 
-
-
-
-
+{% include patreon-link.md %}

@@ -1,17 +1,20 @@
 ---
 title: Navigation Aside
 layout: default
+excerpt: Lessons written in html are selectable when rendering options for the end-user to click ...
+hint: The Line Item Class Divider functions as a visual stop between groups of five lessons within each Topic at the Navigation aside of the main Concept Library.
+repo: Browser-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
+categories: page
 ---
-# Navigation Aside
-
-Lessons written in (.html) are selectable when rendering options for the end-user to click.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Line Item Class Divider
 
-The *Line Item Class Divider* functions as a visual stop between groups of five (5) lessons within each Topic at the Navigation aside of the main Concept Library, as follows:
+> **Hint**. {{ page.hint }}
+
+### Fence Code 
 
 ```html
 {% raw %}
@@ -26,22 +29,16 @@ The *Line Item Class Divider* functions as a visual stop between groups of five 
 
 **Note**. The two service files that are also written in (.html) are partitioned at the bottom of the stack of options right above the partition for the link back to the (.html) written Home Page of the main Concept Library.
 
-## Import Code
+## Last Subtitle
 
 More to come ...
 
-## Last Subtitle
+***
 
-Place the introducing line of text ie.) the 'tagline' here ...
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-{% include sources-and-uses.md %}
+***
 
-### External Sources
-
-- The [Project Source Links](https://mminail.github.io/Browser/Source-Browser-Links.htm){:title="Click to Visit the Source Links page of the Browser Lessons Project at GitHub pages"}{:target="_blank"} page of the Browser Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}

@@ -1,19 +1,22 @@
 ---
 title: Nokogiri Update
 layout: default
+excerpt: We found a potential security vulnerability in one of the dependencies for your repo ...
+hint: The nokogiri dependency defined in the Gemfile dot lock file for this repo has a known critical severity security vulnerability in version range less than 1.8.1
+repo: Browser-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
+categories: page
 ---
-# Nokogiri Update
+{% include toc.md %}
 
-"We found a potential security vulnerability in one of the dependencies for your repo."
+## Security Issue
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
 
-## Nokogiri Security Issue
+More to come ...
 
-The `nokogiri` dependency defined in the `Gemfile.lock` for this repo has a known critical severity security vulnerability in version range < 1.8.1;
-
-## GitHub Pages
+### GitHub Pages
 
 Please correct the version of the `nokogiri` dependency from 1.7.2 to **1.8.1** in the current `Gemfile` of the subject repo.
 
@@ -37,26 +40,14 @@ Follow the following instruction set:
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include sources-and-uses.md %}
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-### External Sources
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
 
-
-
-
-
-
-
-
-
-
+{% include patreon-link.md %}

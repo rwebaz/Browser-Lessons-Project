@@ -1,17 +1,20 @@
 ---
 title: Key Shorts
 layout: default
+excerpt: The default shift + cmd + p combo keybinding allows the enduser to access the VSC command line interface ...
+hint: The standard set of Hot Keys in Visual Studio Code include the shift + cmd + p combo keybinding used to Show All Commands.
+repo: Browser-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
+categories: page
 ---
-# Key Shorts
-
-The default `shift` + `cmd` + `p` combo *keybinding* allows the end-user to access the **VSC** *command line interface*.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Shift Command P
 
-The standard set of *Hot Keys* in **Visual Studio Code** include the `shift` + `cmd` + `p` combo *keybinding* used to `Show All Commands`.
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ### Discover P
 
@@ -75,18 +78,14 @@ For example, use the term *Markdown IntelliSense* when querying the **Extensions
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include sources-and-uses.md %}
+**Note**. The above synopsis was derived from an article written by Visual Studio Code [[1](#VSC){:.red}].
 
-### External Sources
+1. {:#VSC}The [Assigning Keybindings To Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets){:title='Click to Visit the Assigning Keybindings To Snippets section of Creating Your Own Snippets in Visual Studio Code'}{:target='_blank'} section of Creating Your Own Snippets in Visual Studio Code. Published © 2018 by [Code.visualstudio.com](https://code.visualstudio.com/docs/){:title='Click to Visit the index of Document pages at Visual Studio Code'}{:target='_blank'}.
 
-- The [Project Source Links](https://mminail.github.io/Browser/Source-Browser-Links.htm){:title="Click to Visit the Source Links page of the Browser Lessons Project at GitHub pages"}{:target="_blank"} page of the Browser Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
 
-- The [Assigning Keybindings To Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets){:title='Click to Visit the Assigning Keybindings To Snippets section of Creating Your Own Snippets in Visual Studio Code'}{:target='_blank'} section of Creating Your Own Snippets in Visual Studio Code. Published © 2018 by [Code.visualstudio.com](https://code.visualstudio.com/docs/){:title='Click to Visit the index of Document pages at Visual Studio Code'}{:target='_blank'}.
+{% include patreon-link.md %}

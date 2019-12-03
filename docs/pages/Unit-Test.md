@@ -1,17 +1,20 @@
 ---
 title: Unit Testing
 layout: default
+excerpt: Before sending your hard-worked app off to production a Unit Testing scheme is in order ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Browser-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
+categories: page
 ---
-# Unit Testing
-
-Before sending your hard-worked app off to production a Unit Testing scheme is in order.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Jasmine
 
-Place the introducing line of text ie.) the 'tagline' here ...
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ### Describe It Expect
 
@@ -19,20 +22,14 @@ Place the introducing line of text ie.) the 'tagline' here ...
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Place code here
-{% endraw %}
-```
+***
 
-{% include brackets-ide.md %}
+**Note**. The above synopsis was derived from an article written by Chad Adams [[1](#CHADADAMS){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#CHADADAMS}[Mastering Javascript High Performance](https://www.packtpub.com/web-development/mastering-javascript-high-performance){:title="Click to Visit the Landing page for Mastering Javascript High Performance by Chad Adams"}{:target="_blank"} by Chad Adams. Published © 2015 by [PACKTpub.com](https://www.packtpub.com/){:title="Click to Visit the Home page of PACKT Publishing"}{:target="_blank"}.
 
-### External Sources
+***
 
-- The [Project Source Links](https://mminail.github.io/Browser/Source-Browser-Links.htm){:title="Click to Visit the Source Links page of the Browser Lessons Project at GitHub pages"}{:target="_blank"} page of the Browser Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-- [Mastering Javascript High Performance](https://www.packtpub.com/web-development/mastering-javascript-high-performance){:title="Click to Visit the Landing page for Mastering Javascript High Performance by Chad Adams"}{:target="_blank"} by Chad Adams. Published © 2015 by [PACKTpub.com](https://www.packtpub.com/){:title="Click to Visit the Home page of PACKT Publishing"}{:target="_blank"}.
+{% include patreon-link.md %}
